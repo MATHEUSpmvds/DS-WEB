@@ -2,5 +2,25 @@ body{
     background-color: aquamarine;
 }
 h1{
-    color: brown;
+    color: rgb(13, 255, 0);
+    text-align: center;
+}
+p{
+    font-family:Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+.minha-div{
+    background-color: blueviolet;
+    color:white ;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#minha-div{
+background-color: rgb(32, 17, 240);
+    color:white ;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
 }
