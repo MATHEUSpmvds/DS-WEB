@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(45deg, #21008d, #0a0099, #2a01ce);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;  
+      gap: 20px;
+ }
+
+
+.scale {
+    width: 180px;
+    height: 180px;
+    color: white;
+    background-color: #7a0078;
+    transition: transform 0.5s;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.scale:hover {
+    transform: scale(1.5);
+}
+
+
+.rotate {
+    width: 180px;
+    height: 180px;
+    background-color: #9a5700;
+    transition: transform 0.5s;
+    color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.rotate:hover {
+    transform: rotate(45deg);
+}   
+
+
+.translate {
+    width: 180px;
+    height: 180px;
+    background-color:   #00521b;
+    transition: transform 0.5s;
+    color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+
+.border {
+    width: 200px;
+    height: 200px;
+    background-color: #769400;
+    border-radius: 50%;
+    transition: opacity 0.2s;color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.opacity {
+    width: 180px;
+    height: 180px;
+    background-color: #690131;
+    opacity: 1;
+    transition: opacity 0.2s;color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.opacity:hover {
+    opacity: 0.5;
+}
+
+@keyframes moverEfeito { 
+    0% { 
+    transform: translateX(0);
+    background-color: red;
+    }
+    50% {
+    transform: translateX(200px);
+    background-color: yellow;
+    }
+    100% {
+    transform: translateX(0);
+    background-color: green;
+   }
+}
+.animado {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    animation: moverEfeito 4s ease-in-out infinite;
+    transition: opacity 0.2s;color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ }
+</style>
+    
+    
+</head>
+<body>
+            <div class="scale"> tranform: scale(); </div>
+            <div class="rotate">tranform: rotate();</div>
+            <div class="translate">tranform: translate(); </div>
+            <div class="border">border-radius: ;</div>
+            <div class="opacity">opacity: ;</div>
+            <div class="animado">@Keyframes + animations;</div>
+
+</body>
+</html>
