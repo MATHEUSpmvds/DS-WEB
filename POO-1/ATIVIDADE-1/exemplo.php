@@ -175,6 +175,16 @@ class ContaBancaria {
                "Número da Conta: {$this->numeroDaConta}<br>" .
                "Saldo: R$ " . number_format($this->saldo, 2, ',', '.') . "<br><br>";
     }
+    public function depositar($deposito){
+        $this->saldo += $deposito;
+        return"este é o novo saldo" $this->saldo;
+    }
+    public  function sacar ($saque){
+
+
+        $this->saldo -= $saque;
+        return"este é o novo saldo" .$this->saldo;
+    }
 }
 
 $contaDoArthur = new ContaBancaria();
