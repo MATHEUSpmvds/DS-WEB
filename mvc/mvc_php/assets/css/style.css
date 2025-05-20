@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    background-color: #F5F5DC;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #D2B48C;
+    background-color: #EDE9D0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #5C4033;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #D2B48C;
+}
+
+li a.active {
+    color: white;
+    background-color: #8B4513;
+}
+
+.link-usuario {
+    float: right;
+}
+
+.container {
+    margin: 20px auto 0 auto;
+    width: 600px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 30px 30px;
+    border-radius: 8px;
+    background: #F8F8F0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: #5C4033;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    margin-top: 5px;
+    border: 1px solid #BDB76B;
+    border-radius: 4px;
+}
+input[type=submit] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8B4513;
+    background-color: #A0522D;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input:hover[type=submit] {
+    background-color: #8B4513;
+}
+
+.erro-input {
+    color: #CD5C5C;
+    font-size: 15px;
+}
+
+.photo-user {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #D2B48C;
+}
+.div-photo p {
+    color: #5C4033;
+    text-align: center;
+    font-size: x-small;
+}
+.div-photo {
+    padding-right: 30px;
+    font-size: x-small;
+}
+.button-edit {
+    margin-top: 15px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #5C4033;
+    background-color: #8B4513;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-edit:hover {
+    background-color: #A0522D;
+}
+.div-button-edit {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: white;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #D2B48C; 
+  }
+  
+  tr:hover {
+    background-color: #F5F5DC; 
+  }
+  
+  th {
+    background-color: #8B4513; 
+    color: white;
+  }
+  
+  /* Botão padrão */
+  button {
+    padding: 6px 12px;
+    background-color: #A0522D; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #8B4513; 
+  
