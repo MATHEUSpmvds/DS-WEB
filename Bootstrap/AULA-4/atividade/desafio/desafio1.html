@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja - Página de Produtos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Espaço para evitar sobreposição da navbar */
+    body {
+      padding-top: 70px;
+    }
+
+    /* Efeito de zoom suave nos cards */
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Minha Loja</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <div class="container mt-5">
+    <h1 class="text-center text-primary fw-bold">Bem-vindo à Minha Loja</h1>
+    <p class="text-center text-secondary">Os melhores produtos com preços incríveis!</p>
+
+    <!-- Grid de produtos -->
+    <div class="row g-4 mt-4">
+      <!-- Produto 1 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="thung thung sahur.jpg" class="card-img-top" alt="Produto 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Madeira muito simpatica, gosta de brincar com seu bastao de madeira.</p>
+            <p class="fw-bold text-success">R$ 99,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="chicletera.jpg" class="card-img-top" alt="Produto 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Gosta de andar de bicicleta.</p>
+            <p class="fw-bold text-success">R$ 149,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="matteo.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 3</h5> bicicleta, pilantra e divertida
+            <p class="card-text">brain rot peludo e legal de se falar.</p>
+            <p class="fw-bold text-success">R$ 79,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produto 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="tripitroppi.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 4</h5> 
+            <p class="card-text">brain rot peludo e legal de se falar.</p>
+            <p class="fw-bold text-success">R$ 79,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="los orcalelos.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 5</h5> b
+            <p class="card-text">grpo de baleias fofinhas.</p>
+            <p class="fw-bold text-success">R$ 150,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="los tralalelitos.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 6</h5> 
+            <p class="card-text">grupo de irmaos de tubaroes fofinhos.</p>
+            <p class="fw-bold text-success">R$ 120,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="tip to pitaco.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 7</h5> 
+            <p class="card-text">porquinho fofinho enrolado no burrito.</p>
+            <p class="fw-bold text-success">R$ 79,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <img src="capuchino.jpg" class="card-img-top" alt="Produto 4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Produto 8</h5>
+            <p class="card-text">simpatico, usa arma para se defender e é muito honesto.</p>
+            <p class="fw-bold text-success">R$ 59,90</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    © 2025 - Minha Loja | Desenvolvido com Bootstrap
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
