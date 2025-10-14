@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page Simples</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Minha Página</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Alerta -->
+    <div class="alert alert-primary text-center mt-5">
+      Bem-vindo à nossa página!
+    </div>
+
+    <!-- Seção Principal -->
+    <section id="inicio" class="text-center p-5 mt-5">
+      <div class="container">
+        <h1>Bem-vindo à Nossa perfumaria</h1>
+        <p>Trabalhamos com qualidade e dedicação.</p>
+        <a href="#sobre" class="btn btn-primary">Saiba Mais</a>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+    <div id="carouselExemplo" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="perfume-Turma-da-Monica-Cebolinha-de-Jequiti-1.webp" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+          <img src="MIOLO4.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+          <img src="Phantom_Paco.jpg" class="d-block w-100" alt="Imagem 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExemplo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExemplo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Cards -->
+    <section id="sobre" class="p-5">
+      <div class="container text-center">
+        <h2>Perfumes mais vendidos</h2>
+        <div class="row g-4 mt-3">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="invictus-50ml-67f6f61eb6bdd.webp" class="card-img-top" alt="Invictus">
+              <div class="card-body">
+                <h5 class="card-title">Invictus 550,00R$</h5>
+                <p class="card-text">Um perfume marcante e energético, com cheiro fresco e levemente adocicado. Mistura notas de grapefruit, âmbar e madeira, transmitindo força, vitória e confiança.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="212.webp" class="card-img-top" alt="212 Black">
+              <div class="card-body">
+                <h5 class="card-title">212 Black 500,00R$</h5>
+                <p class="card-text">Perfume masculino intenso e moderno. Tem um aroma quente e levemente adocicado, com notas de absinto, lavanda e baunilha, perfeito pra sair à noite e chamar atenção.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="download.jfif" class="card-img-top" alt="Liz">
+              <div class="card-body">
+                <h5 class="card-title">Liz 170,00R$</h5>
+                <p class="card-text">Perfume feminino suave e elegante. Tem notas florais e frutadas, com um toque adocicado e leve de baunilha, trazendo uma sensação de delicadeza e frescor. Pode ser usado em qualquer ocasião</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Novo Card -->
+          <div class="col-md-3">
+            <div class="card">
+              <img src="malbeck(1).jfif" class="card-img-top" alt="Novo Perfume">
+              <div class="card-body">
+                <h5 class="card-title">Malbec 250,00R$</h5>
+                <p class="card-text">Malbec é um perfume masculino marcante e sofisticado, conhecido por seu aroma amadeirado intenso e elegante. Ele combina notas de uva, madeiras nobres e especiaria. Usado em festas.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="p-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Perguntas Frequentes</h2>
+        <div class="accordion" id="faq">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                Qual é o prazo de entrega dos perfumes?
+              </button>
+            </h2>
+            <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+              <div class="accordion-body">Os perfumes são entregues até 8 dias úteis.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                Quais são os métodos de pagamento?
+              </button>
+            </h2>
+            <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body">Aceitamos cartão e PIX.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal de Contato -->
+    <section id="contato" class="text-center p-5">
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalContato">
+        Entre em Contato
+      </button>
+    </section>
+
+    <div class="modal fade" id="modalContato" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Fale Conosco</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Nome</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">E-mail</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mensagem</label>
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="text-center p-3">
+      © 2025 - Criado por Matheus Pacheco
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
